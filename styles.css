@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 700px;
+    height: 490px;
+    box-shadow: 0px 0px 14px 3px rgba(130, 130, 130, 0.39);
+    border-radius: 20px;
+}
+
+/* result container */
+.result-container{
+    width: 50%;
+    background-image: linear-gradient(to bottom, #7857ff, #694cf9, #5941f4, #4736ee, #2e2be9);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.result-header{
+    color: hsl(241, 100%, 89%);
+    margin-top: 20px;
+}
+
+.result-score{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #4e21ca, #4621ca, #3d21ca, #3221ca, #2421ca);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-score{
+    color: hsl(0, 0%, 100%);
+    font-size: 4rem;
+}
+
+.addition-to-main-score{
+    color: hsl(241, 100%, 89%);
+}
+
+.result-mark{
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+}
+
+.mark-txt{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    text-align: center;
+    width: 65%;
+    margin-bottom: 25px;
+}
+/* end of result container */
+
+/* summary-container */
+.summary-container{
+    width: 50%;
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.summary-container h2{
+    color: rgb(48, 48, 48);
+    margin-top: 20px;
+    margin-left: -180px;
+}
+
+.sum-field-container{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sum-field{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sum-field.one{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+.sum-field.two{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+.sum-field.three{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+.sum-field.fore{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+.sum-filed-header{
+    font-weight: 600;
+}
+
+.sum-filed-header i{
+    margin-right: 5px;
+}
+
+.sum-filed-score b{
+    color: rgb(45, 45, 45);
+    font-weight: 600;
+}
+
+.sum-filed-score {
+    color: hsl(0, 0%, 49%);
+    font-weight: 600;
+}
+
+.continue-btn{
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.continue-btn:hover{
+    background-color: rgb(52, 52, 52);;
+}
+/* end of summary-container */
